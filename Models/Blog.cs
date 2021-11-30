@@ -9,6 +9,6 @@ namespace BlogsAndPosts
     {
         public int BlogId {get;set;}
         public string Name {get;set;}
-        public List<Post> Posts {get;set;}
+        public virtual List<Post> Posts {get;set;}
     }
 }
